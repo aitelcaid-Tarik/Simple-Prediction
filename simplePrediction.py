@@ -8,5 +8,5 @@ labels = ['Tfa7a', 'Tfa7a', 'Limouna', 'Limouna']
 clasf = tree.DecisionTreeClassifier()
 classif = clasf.fit(features, labels)
 
-print (classif.predict([[160,4]]))
+print (classif.predict([[160,3]]))
 
